@@ -1,0 +1,14 @@
+@import models.domain._
+
+
+@(user: Seq[User], postForm: Form[Post])(implicit messageProvider: MessagesProvider, request: RequestHeader)
+
+@main("Welcome to Play") {
+  <h1>Newsfeed</h1>
+  <a href="@routes.UserController.logout()">Logout</a>
+
+
+  d
+
+
+}
